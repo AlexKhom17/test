@@ -182,13 +182,28 @@ cursor: pointer;
     background-color: #d50c0c;
 }
 
-.cards {}
+.cards {
+    margin: 0 auto;
+    width: 1536px;
+}
 
-.cards__text-h3 {}
+.cards__text-h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+}
 
-.cards__flex {}
+.cards__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24;
+}
 
-.cards__item {}
+.cards__item {
+    display: grid;
+    grid-template-columns: ;
+}
 
 .cards__img {}
 
