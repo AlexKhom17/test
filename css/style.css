@@ -201,12 +201,22 @@ cursor: pointer;
 }
 
 .cards__item {
-    display: grid;
-    grid-template-columns: ;
+    display: flex;
+    
 }
 
 .cards__img {}
 
-.csrds__text-h4 {}
+.cards__text-h4 {
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+}
 
-.cerds__text-p {}
+.cards__text-p {
+    margin-top: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
