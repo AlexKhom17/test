@@ -277,8 +277,15 @@ align-items: center;
 .reviews__box{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 24px;
 }
 .reviews__box-item1{
     background-color: #fff;
+    border-radius: 16px;
+}
+.reviews__arrow{
+   
+    width: 60px;
+    height: 60px;
 }
