@@ -6,6 +6,9 @@
     width: 1920px;
 }
 
+.box{
+    background-color: #E5E7EB;
+}
 .header__rectangle {
     margin: 0 auto;
     width: 1536px;
@@ -269,4 +272,13 @@ align-items: center;
 .reviews{
     margin: 0 auto;
     width: 1536px;
+}
+
+.reviews__box{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.reviews__box-item1{
+    background-color: #fff;
 }
