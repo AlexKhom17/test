@@ -325,5 +325,24 @@ align-items: center;
     gap: 25px;
 }
 .form__questions-text{
-    
+width: 485px;
+height: 120px;
+color: #6B7280;
+font-size: 16px;
+}
+.questions__button{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+   
+}
+.questions__button-item{
+background-color: #8B5CF6;
+    border-radius: 4px;
+    width: 485px;
+    height: 44px;
+    color: #F9FAFB;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 700;
 }
