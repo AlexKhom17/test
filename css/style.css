@@ -311,3 +311,19 @@ align-items: center;
     display: flex;
     align-items: center;
 }
+.questions {
+
+}
+
+.form__questions {}
+
+.questions__grid {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 230px 230px;
+    grid-template-rows: 40px 40px;
+    gap: 25px;
+}
+.form__questions-text{
+    
+}
