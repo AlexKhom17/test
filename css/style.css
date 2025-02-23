@@ -7,7 +7,7 @@
 }
 
 .box{
-    background-color: #b8b6b6;
+    background-color: #d7d4d4;
 }
 .header__rectangle {
     margin: 0 auto;
@@ -315,7 +315,9 @@ align-items: center;
 
 }
 
-.form__questions {}
+.form__questions {
+    margin-top: 32px;
+}
 
 .questions__grid {
     display: grid;
@@ -329,6 +331,8 @@ width: 485px;
 height: 120px;
 color: #6B7280;
 font-size: 16px;
+border: solid rgb(115, 113, 113) 1px;
+border-radius: 10px;
 }
 .questions__button{
     display: flex;
@@ -345,4 +349,12 @@ background-color: #8B5CF6;
     font-size: 16px;
     font-family: sans-serif;
     font-weight: 700;
+    border: none;
+}
+
+.footer{
+    margin: 100px 0 auto;
+    width: 1920pxpx;
+    height: 234px;
+    background-color: #111827;
 }
